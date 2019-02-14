@@ -1,0 +1,246 @@
+/* CSSのリセット */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+body {
+  font-family: 'YuGothic', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.container {
+	margin: 0 auto;
+	width: 980px;
+}
+
+.conteiner p {
+	font-size: 20px;
+}
+
+header {
+	background-image: url(../img/header.png);
+	background-repeat: no-repeat;
+	padding-bottom: calc(100% * 987/1480);
+	background-size: 100% auto;
+	position: relative;
+}
+
+#nav {
+	background-color: #fff;
+	height: 75px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.main-nav li {
+	font-size: 18px;
+	line-height: 1.0;
+	margin: 27px 48px 30px 0;
+}
+
+.main-nav li a {
+	color: #333;
+}
+
+.main-nav li:first-child {
+	margin-right: auto;
+}
+
+.main-nav li:last-child {
+	margin-right: 0;
+}
+
+.nav-logo {
+	margin: 25px 0 26px;
+}
+
+.mv-text-img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.wrapper {
+	padding: 100px 0;
+}
+
+.heading {
+	font-size: 40px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+#message-wrapper .heading {
+	text-align: left;
+}
+
+#message-wrapper p {
+	font-size: 24px;
+	
+}
+
+#cat1-wrapper {
+	background-color: #FCF6F2;
+}
+
+
+.row {
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.row:last-child {
+	margin-bottom: 0;
+}
+
+.column-item1 {
+	margin-right: 80px;
+}
+
+.column-item1,
+.column-item2 {
+	width: 450px;
+}
+
+.row p {
+	font-size: 20px;
+}
+
+#cat2-wrapper img {
+	margin-bottom: 50px;
+}
+
+#subvisual-wrapper {
+	background-image: url(../img/subvisual.png);
+	background-repeat: no-repeat;
+	padding-bottom: calc(100% * 950/1484);
+	background-size: 100% auto;
+	position: relative;
+}
+
+#subvisual-wrapper p {
+	background-color: #fff;
+	display: inline-block;
+	font-weight: bold;
+	height: 450px;
+	margin: 0;
+	opacity: 0.6;
+	padding: 98px 75px 52px;
+	position: absolute;
+	top: 101px;
+	left: 629px;
+	width: 450px;
+}
+
+#cat3-wrapper table {
+	border-top: 1px solid #777;
+	border-collapse: collapse;
+	font-size: 16px;
+}
+
+#cat3-wrapper table th {
+	padding-right: 14px;
+	padding-top: 13.5px;
+}
+
+#cat3-wrapper table td p {
+	margin-top: 13.5px;
+}
+
+#cat3-wrapper table td p:last-child {
+	margin-bottom: 15.5px;
+} 
+
+#cat3-wrapper table tr th,
+#cat3-wrapper table tr td {
+	border-bottom: 1px solid #777;
+	line-height: 1.0;
+	vertical-align: top;
+}
+
+#cat3-wrapper table tr td span {
+	color: #AD2727;
+	border: 1px solid #AD2727;
+	display: inline-block;
+	margin: 8px 37px 8px 0;
+	text-align: center;
+	padding: 4px 26px 5px;
+	white-space: nowrap;
+}
+
+#info {
+	background-color: #8E8E8E;
+}
+
+#info h5,
+#info li {
+	color: #fff;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+#info h5 {
+	border-bottom: 1px solid #fff;
+}
+
+#info li {
+	list-style-position: inside;
+}
+
+#info .row {
+	justify-content: space-between;
+}
+
+#info .column {
+	width: 30%;
+}
+
+#info .column:last-child {
+	margin-right: 0;
+}
+
+footer {
+	background-color: #6A6A6A;
+	border: 1px solid #707070;
+	padding: 18px 0 17px;
+}
+
+footer .row {
+	justify-content: flex-end;
+}
+
+.footer-logo {
+	margin-right: auto;
+}
+
+footer .row p {
+	color: #fff;
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
